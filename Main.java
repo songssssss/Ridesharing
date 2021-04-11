@@ -13,9 +13,9 @@ import java.sql.Timestamp;
 public class Main {
 
 
-    static String dbAddress = "jdbc:mysql://projgw.cse.cuhk.edu.hk:2633/group35";
-    static String dbUsername = "Group35";
-    static String dbPassword = "3170group35";
+    static String dbAddress = "~";
+    static String dbUsername = "~";
+    static String dbPassword = "~";
     static Connection conn;
     static int debug =1;
 	static Scanner sc = new Scanner(System.in);
@@ -358,9 +358,9 @@ public class Main {
 
     public static Connection getConnection(){   //throws Exception
 		String driver = "com.mysql.jdbc.Driver";
-		String dbAddress = "jdbc:mysql://projgw.cse.cuhk.edu.hk:2633/group35";
-		String dbUsername = "Group35";
-		String dbPassword = "3170group35";
+		String dbAddress = "~";
+		String dbUsername = "~";
+		String dbPassword = "~";
 		Connection con = null;
 		try{
 			Class.forName(driver);
